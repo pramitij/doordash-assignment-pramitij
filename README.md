@@ -27,3 +27,20 @@ Please reach out to your respective TA if you need any help in regards with subm
 Author:
 - Aditya Mulik (mulik.a@northeastern.edu)
 - Sai Akhil Vemula (vemula.v@northeastern.edu)
+
+### Specifications of Assignment
+ 
+
+Complete the Door Dash midterm program as a homework assignment (open book, etc.).
+
+ 1.  DO YOUR OWN WORK.
+
+ 2. Include your unique development log,
+
+String[] devLog = { “blah”, “blah” );
+
+each String detailing creation of each class and interface as well as every bug fix.
+
+ Output devLog to console stdout FIRST, followed by required DoorDash program output.
+
+ Submit completed DoorDash program before next lecture.
