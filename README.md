@@ -1,46 +1,59 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10513557&assignment_repo_type=AssignmentRepo)
-# Welcome to the course CSYE6200 - Object Oriented Design
-> Northeastern University, College of Engineering
+# DoorDash Clone - Modeling Food Delivery Using Design Patterns
+
+## Overview
+>The DoorDash Clone is a Java-based software solution designed to simulate a simplified food delivery system, showcasing the application of various design patterns such as Bridge, Builder, Factory, Decorator, and Strategy. It demonstrates how these patterns can be utilized to create a structured and flexible system for managing orders, calculating totals, and applying discounts.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Design Patterns Used](#designpatternsused)
+- [Development Log](#developmentlog)
 
 
-## Professor: Daniel Peters
+## Introduction
+The DoorDash Clone application features a simplified point-of-sale (POS) system capable of processing orders and calculating totals with various discounts. It employs several design patterns such as Bridge, Builder, Factory, Decorator, and Strategy to showcase software design principles in action.
 
-### Requirements
-1. Eclipse or VS Code or IntelliJ.
+## Requirements
+Java Development Kit (JDK)
+Integrated Development Environment (IDE) such as Eclipse, VS Code, or IntelliJ
 
-Note: If you are using Eclipse, please have git CLI installed on your system or GitHub Desktop to commit the code in this repository
+## Installation
+1. Clone the repository on your local system:
+   ```sh
+   git clone https://github.com/yourusername/doordash-clone.git
 
-### SetUp Instructions
-1. Please clone the repository on your local system
-2. For Eclipse Import the project as Existing Maven Project, For IntelliJ you can directlty open it using 'Get from VCS'.
-4. All code should be pushed to the main branch
-3. Ensure the GitHub actions are successful post push
+2. Import the project into your preferred IDE. For Eclipse, import it as an Existing Maven Project. For IntelliJ, open it directly using 'Get from VCS'.
 
-Submissions will have deadlines, failed GitHub Actions would result in point deductions.
+3. Navigate to the project directory:
+   ```sh
+   cd doordash-clone
+   
+4. Compile and run the code:
+   ```sh
+   javac DoorDash.java
+   java DoorDash
+   
+## Usage
+Run the `demo()` method in the DoorDash class to see a demonstration of the application functionality.
+Customize and test the POS system, calculator implementations, and order management functionalities as needed.
 
-### References
-1. Cloning a Repository: <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
-2. Any GitHub Setup: Please refer to the Git & GitHub Fundamentals Repository shared to you by your respective TA and refer the README.md section
+## Design Patterns Used
+- Bridge Design Pattern: Separates abstraction from its implementation, allowing the POS system to switch between different calculator implementations seamlessly.
+- Builder Design Pattern: Constructs complex order and item objects step by step, providing flexibility and ease of use.
+- Factory Design Pattern: Creates instances of items and orders using factory classes, promoting loose coupling and easy extensibility.
+- Decorator Design Pattern: Dynamically adds additional functionalities such as discounts and special offers to order objects without altering their structure.
+- Strategy Design Pattern: Defines a family of algorithms, encapsulates each one, and makes them interchangeable, allowing the POS system to apply different discount strategies dynamically.
 
-Please reach out to your respective TA if you need any help in regards with submission/ GitHub
+## Demo
+Execute the demo() method in the DoorDash class to observe how the DoorDash Clone application processes orders, calculates totals and applies discounts using various design patterns.
 
-Author:
-- Aditya Mulik (mulik.a@northeastern.edu)
-- Sai Akhil Vemula (vemula.v@northeastern.edu)
-
-### Specifications of Assignment
- 
-
-Complete the Door Dash midterm program as a homework assignment (open book, etc.).
-
- 1.  DO YOUR OWN WORK.
-
- 2. Include your unique development log,
-
-String[] devLog = { “blah”, “blah” );
-
-each String detailing creation of each class and interface as well as every bug fix.
-
- Output devLog to console stdout FIRST, followed by required DoorDash program output.
-
- Submit completed DoorDash program before next lecture.
+## Development Log
+Version 1.0: Initial version of the DoorDash Clone application.
+Version 1.1: Implemented basic skeleton interfaces and classes for POS and calculator.
+Version 1.2: Developed order management functionalities using the Builder pattern.
+Version 1.3: Created factory classes for item and order creation.
+Version 1.4: Implemented various discount strategies using the Strategy pattern.
+Version 1.5: Integrated decorator classes for applying discounts dynamically.
+Version 1.6: Tested and debugged the application for successful execution.
