@@ -14,8 +14,8 @@
 The DoorDash Clone application features a simplified point-of-sale (POS) system capable of processing orders and calculating totals with various discounts. It employs several design patterns such as Bridge, Builder, Factory, Decorator, and Strategy to showcase software design principles in action.
 
 ## Requirements
-Java Development Kit (JDK)
-Integrated Development Environment (IDE) such as Eclipse, VS Code, or IntelliJ
+- Java Development Kit (JDK)
+- Integrated Development Environment (IDE) such as Eclipse, VS Code, or IntelliJ
 
 ## Installation
 1. Clone the repository on your local system:
@@ -34,8 +34,8 @@ Integrated Development Environment (IDE) such as Eclipse, VS Code, or IntelliJ
    java DoorDash
    
 ## Usage
-Run the `demo()` method in the DoorDash class to see a demonstration of the application functionality.
-Customize and test the POS system, calculator implementations, and order management functionalities as needed.
+- Run the `demo()` method in the DoorDash class to see a demonstration of the application functionality.
+- Customize and test the POS system, calculator implementations, and order management functionalities as needed.
 
 ## Design Patterns Used
 - Bridge Design Pattern: Separates abstraction from its implementation, allowing the POS system to switch between different calculator implementations seamlessly.
