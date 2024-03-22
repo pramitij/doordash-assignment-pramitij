@@ -1,6 +1,4 @@
 # DoorDash Clone - Modeling Food Delivery Using Design Patterns
-
-## Overview
 >The DoorDash Clone is a Java-based software solution designed to simulate a simplified food delivery system, showcasing the application of various design patterns such as Bridge, Builder, Factory, Decorator, and Strategy. It demonstrates how these patterns can be utilized to create a structured and flexible system for managing orders, calculating totals, and applying discounts.
 
 ## Table of Contents
@@ -47,10 +45,10 @@ Customize and test the POS system, calculator implementations, and order managem
 - Strategy Design Pattern: Defines a family of algorithms, encapsulates each one, and makes them interchangeable, allowing the POS system to apply different discount strategies dynamically.
 
 ## Development Log
-Version 1.0: Initial version of the DoorDash Clone application.
-Version 1.1: Implemented basic skeleton interfaces and classes for POS and calculator.
-Version 1.2: Developed order management functionalities using the Builder pattern.
-Version 1.3: Created factory classes for item and order creation.
-Version 1.4: Implemented various discount strategies using the Strategy pattern.
-Version 1.5: Integrated decorator classes for applying discounts dynamically.
-Version 1.6: Tested and debugged the application for successful execution.
+- Version 1.0: Initial version of the DoorDash Clone application.
+- Version 1.1: Implemented basic skeleton interfaces and classes for POS and calculator.
+- Version 1.2: Developed order management functionalities using the Builder pattern.
+- Version 1.3: Created factory classes for item and order creation.
+- Version 1.4: Implemented various discount strategies using the Strategy pattern.
+- Version 1.5: Integrated decorator classes for applying discounts dynamically.
+- Version 1.6: Tested and debugged the application for successful execution.
