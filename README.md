@@ -8,8 +8,8 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Design Patterns Used](#designpatternsused)
-- [Development Log](#developmentlog)
+- [Design Patterns Used](#design-patterns-used)
+- [Development Log](#development-log)
 
 
 ## Introduction
@@ -45,9 +45,6 @@ Customize and test the POS system, calculator implementations, and order managem
 - Factory Design Pattern: Creates instances of items and orders using factory classes, promoting loose coupling and easy extensibility.
 - Decorator Design Pattern: Dynamically adds additional functionalities such as discounts and special offers to order objects without altering their structure.
 - Strategy Design Pattern: Defines a family of algorithms, encapsulates each one, and makes them interchangeable, allowing the POS system to apply different discount strategies dynamically.
-
-## Demo
-Execute the demo() method in the DoorDash class to observe how the DoorDash Clone application processes orders, calculates totals and applies discounts using various design patterns.
 
 ## Development Log
 Version 1.0: Initial version of the DoorDash Clone application.
